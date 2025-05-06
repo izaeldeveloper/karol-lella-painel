@@ -1,0 +1,61 @@
+# =====================
+# 🔹 GERAL
+# =====================
+.DS_Store
+Thumbs.db
+node_modules/
+venv/
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+dist/
+build/
+coverage/
+*.pyc
+__pycache__/
+
+# =====================
+# 🔹 FRONTEND (Vue.js)
+# =====================
+/frontend/node_modules/
+/frontend/.env.local
+/frontend/.temp
+/frontend/dist/
+!/frontend/src/assets/ # Mantém os assets que fazem parte do projeto
+
+# =====================
+# 🔹 BACKEND (Python)
+# =====================
+/backend/venv/
+/backend/.env
+/backend/.pytest_cache/
+/backend/.mypy_cache/
+/backend/.tox/
+/backend/.coverage
+/backend/htmlcov/
+/backend/db.sqlite3
+/backend/instance/
+/backend/media/
+/backend/staticfiles/
+/backend/__pycache__/
+/backend/*.pyc
+
+# =====================
+# 🔹 FLASK
+# =====================
+/backend/instance/
+/backend/migrations/
+
+
+# =====================
+# 🔹 IDEs e Editores
+# =====================
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
